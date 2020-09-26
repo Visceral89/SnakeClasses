@@ -1,0 +1,1 @@
+#here is where im going to generate the code to make the board and the window
