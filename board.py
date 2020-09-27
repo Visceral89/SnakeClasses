@@ -4,8 +4,10 @@ import pygame
 # Init
 pygame.init()
 
-# Variables
-dis_width = 600
-dis_height = 600
-dis = pygame.display.set_mode((dis_width, dis_width))
-pygame.display.set_caption("Snake av Rasmus")
+class board:
+    def __init__(self, dis_width, dis_height, dis, caption):
+        caption = "Snaek game Rasmus"
+        dis_width = 600
+        dis_height = 600
+        dis = pygame.display.set_mode((dis_width, dis_width))
+        pygame.display.set_caption(caption)
